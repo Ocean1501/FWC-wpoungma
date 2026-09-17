@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.card {
+    width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* table stays invisible */
+td {
+    border: none;
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+    display: block;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: gray;
+}
+
+.social {
+    padding: 15px;
+}
+
+.social a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
